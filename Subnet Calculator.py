@@ -1,4 +1,6 @@
         #Application part 1
+        
+   #Verifying the input IP address     
 
 while True:
     ip_address=input("Enter an IP address: ")
@@ -128,6 +130,8 @@ print("No.of valid hosts per subnet: %s" % no_of_hosts)
 print("Wildcard mask: %s" % wildcard_mask)
 print("Mask bits: %s" % no_of_ones)
 print("\n")
+
+#Application part 4
 
 # Random IP generator
 
