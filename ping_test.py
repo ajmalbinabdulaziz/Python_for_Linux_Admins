@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from subprocess import run
-file_name = input("Enter the file name which has the IP address listed\n")
+file_name = input("Enter the file name which has the IP addresses listed\n")
 def ping_check(file):
 
 	with open(file) as f:
